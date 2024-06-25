@@ -13,7 +13,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/user-profile-todo-app.git
+    git clone https://github.com/safron64/test-user-profile-todo-app
     cd test-user-profile-todo-app
     ```
 
