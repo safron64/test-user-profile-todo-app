@@ -1,23 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Profile.css'
 
 const Profile = () => {
 	return (
 		<div className="profile-container">
 			<img
-				src="https://via.placeholder.com/75"
+				src="https://via.placeholder.com/150"
 				alt="User Avatar"
 				className="profile-avatar"
 			/>
-			<h1 className="profile-username">John Doe</h1>
+			<h1 className="profile-username">Иван Иванов</h1>
 			<p className="profile-bio">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-				non urna nec sapien suscipit aliquet.
+				Это краткая биография пользователя. Здесь может быть любая
+				информация о пользователе.
 			</p>
 			<div className="profile-contact">
-				<p>Email: john.doe@example.com</p>
-				<p>Phone: +1234567890</p>
+				<p>Email: ivan.ivanov@example.com</p>
+				<p>Телефон: +1234567890</p>
 			</div>
+			<nav>
+				<Link to="/users">Список пользователей</Link>
+				<br />
+				<Link to="/todo">Список дел</Link>
+			</nav>
 		</div>
 	)
 }

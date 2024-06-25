@@ -1,0 +1,22 @@
+.users-page {
+	padding: 20px;
+	text-align: center;
+}
+
+.users-list {
+	list-style: none;
+	padding: 0;
+}
+
+.user-item {
+	margin: 10px 0;
+}
+
+.user-item a {
+	text-decoration: none;
+	color: #007bff;
+}
+
+.user-item a:hover {
+	text-decoration: underline;
+}
