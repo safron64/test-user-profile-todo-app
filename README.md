@@ -14,7 +14,7 @@
 1. Клонируйте репозиторий:
     ```bash
     git clone https://github.com/YOUR_USERNAME/user-profile-todo-app.git
-    cd user-profile-todo-app
+    cd test-user-profile-todo-app
     ```
 
 2. Установите зависимости:
